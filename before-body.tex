@@ -1,0 +1,33 @@
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+$if(title)$
+\cleardoublepage
+\thispagestyle{empty}
+{\centering
+\hbox{}\vskip 0cm plus 1fill
+\includegraphics[width=6in]{centr-impact-logo.png}
+{\Huge\sffamily\bfseries $title$ \par}
+$if(subtitle)$
+\vspace{3ex}
+{\Large\sffamily\bfseries $subtitle$ \par}
+$endif$
+\vspace{6ex}
+{\bfseries\large Final Report for the 2024 CUMU-Collaboratory Research Fellowship \par}
+\vspace{3ex}
+{\textcolor{doicolor}{\aiDoi} ~ https://doi.org/10.17605/OSF.IO/JYV9F \par}
+{\textcolor{iucolor}{\aiOpenData} ~ ~ \textcolor{orange}{\aiOpenAccess} ~ ~ \textcolor{osfcolor}{\aiOSF} ~ ~ {\includegraphics[height=11pt]{By-SA} \par}
+\vspace{12ex}
+$for(by-author)$
+{\Large\bfseries $by-author.name.literal$, PhD \orcidlink{$by-author.orcid$} \par}
+{Associate Professor of Technology, Innovation, and Pedagogy \\}
+$for(by-author.affiliations)$%
+{$it.name$ \par}
+$endfor$$endfor$
+{\textbf{Contributors:} Kristin Norris, PhD, Mary Price, PhD, \par}
+\vspace{6ex}
+{\small Supported in part by the Collaborative-Coalition of Urban and Metropolitan Universities (CUMU) Research Fellowship and the Indiana University Faculty Assistance in Data Science program. \par}
+\vspace{6ex}
+{\small Indiana University Indianapolis is located on the traditional and ancestral territory of the Miami, Potawatomi and Shawnee people and, more recently, that of a vibrant Black community, also displaced. This project was conceived and conducted to honor their traditions, power, agency, and voice. \par}
+}}
+$endif$

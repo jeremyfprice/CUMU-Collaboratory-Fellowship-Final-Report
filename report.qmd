@@ -1,0 +1,167 @@
+---
+title: "CEnTR*IMPACT"
+subtitle: "Community Engaged and Transformative Research Inclusive Measurement of Projects and Community Transformation"
+author:
+  - name: Jeremy F Price
+    corresponding: true
+    email: jfprice@iu.edu
+    url: https://www.jeremyfprice.info/
+    orcid: 0000-0002-6506-3526
+    degree: PhD
+    title: Associate Professor of Technology, Innovation, and Pedagogy
+    affiliation:
+      - name: Indiana University Indianapolis School of Education
+        url: https://education.indianapolis.iu.edu/
+        city: Indianapolis
+        state: Indiana
+    role:
+      - conceptualization: lead
+      - methodology: lead
+      - project-administration: lead
+      - funding-acquisition: lead
+      - supervision: lead
+      - visualization: lead
+      - writing: lead
+#contributor:
+#  - name: Kristin Norris
+#    email: norriske@iu.edu
+#    role:
+#      - methodology: supporting
+#      - project-administration: supporting
+#      - writing: supporting
+license: "CC BY-SA"
+format:
+  pdf:
+    documentclass: scrreprt
+    papersize: letter
+    geometry:
+      - margin=1in
+      - heightrounded
+    template-partials:
+      - before-body.tex
+    include-in-header:
+      - file: preamble.tex
+callout-appearance: simple
+sansfont: "Bree Serif"
+mainfont: "PT Sans"
+monofont: "Maple Mono"
+mathfont: "Alegreya"
+highlight-style: a11y
+code-block-bg: true
+code-block-border-left: "#86CEEB"
+code-overflow: wrap
+---
+
+# CEnTR*IMPACT: Metrics for Community Engaged Research
+
+::: {.callout-note}
+
+## The Goal of CENTR*IMPACT
+
+To create heuristics that help community engaged researchers understand and evaluate their work and to help them share their stories of their work with colleagues, funders, partners, etc.
+:::
+
+## Existing Work in Reflecting, Reporting, and Evaluating Community Engaged Scholarship
+
+
+## Situating Metrics
+
+Iceberg or something: metrics are the very top, shortcuts or heuristics for lots of meaning. Can/should be combined with other tools such as TRES (https://servicelearning.indianapolis.iu.edu/teaching-research/tools-instruments/tres/index.html), as these other tools provide deeper insights and more robust information. Metrics should be used to **help** tell the story, they should not be the story in and of themselves.
+
+![](sierpinski_triangles.png){fig-alt="CEnTR*IMPACT"}
+
+$$ x = 8 $$
+
+::: {.callout-warning}
+## Metrics as Single-Value Indicators for Consequential Decision Making
+
+Don't do it.
+:::
+
+# Development Process
+
+Here's what we did
+
+# Current Design and Status of CEnTR*IMPACT
+
+## Project Impacts
+
+$$
+S_{ci} = (\prod^n_{i=1}s_i)^{\frac{1}{n}}
+$$
+
+## Ripple Effects
+
+$$
+\eta_i = \lambda_i(N_i+(\phi C_i))
+$$
+
+$$
+\eta_O = \frac{\sum^n_{i=1}\eta_i}{n}
+$$
+
+# CEnTR*IMPACT in Use
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| eval: false
+#| code-overflow: wrap
+node_frame <- network_frame |>
+  select(-from) %>%
+  distinct(to, .keep_all = TRUE) %>%
+  rename(node = to) %>%
+  arrange(node) %>%
+  mutate(dd = diffusion.degree(network_graph)) %>%
+  mutate(pr = page_rank(network_graph, directed = TRUE)$vector) %>%
+  mutate(node_mu = dd * pr)
+```
+
+# Continued Trajectories
+
+You can add options to executable code like this 
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+
+# Contributors and Roles
+
+| ***Contributor*** | ***Role*** | |
+|:-------------|:-------|:---:|
+| **Jeremy F Price, PhD**    | Conceptualization          | *Lead* |
+|                       | Methodology                     | *Lead* |
+|                       | Project Administration          | *Lead* |
+|                       | Funding Acquisition             | *Lead* |
+|                       | Data Analysis                   | *Lead* |
+|                       | Software                        | *Equal* |
+|                       | Supervision                     | *Lead* |
+|                       | Visualization                   | *Lead* |
+|                       | Writing-Original Draft          | *Lead* |
+|                       | Writing-Editing and Revising    | *Lead* |
+|                       | | |
+| **Kristin Norris, PhD**    | Methodology                | *Supporting* |
+|                       | Project Administration          | *Supporting* |
+|                       | Data Analysis                   | *Supporting* |
+|                       | Writing-Editing and Revising    | *Supporting* |
+|                       | |
+| **Mary Price, PhD**        | Methodology                | *Supporting* |
+|                       | Data Analysis                   | *Supporting* |
+|                       | Writing-Editing and Revising    | *Supporting* |
+|                       | |
+| **Neha Anil Cheda**        | Software                   | *Equal* |
+|                             | Visualization             | *Supporting* |
+|                       | |
+| **Kirthivasan Pandurangan Neelavathi**   | Software     | *Equal* |
+|                       | Visualization                   | *Supporting* |
+|                       | |
+| **Vivek Tiwari**      | Software                        | *Equal* |
+|                       | Visualization                   | *Supporting* |
