@@ -38,9 +38,9 @@ format:
       - margin=1in
       - heightrounded
     template-partials:
-      - before-body.tex
+      - assets/tex/before-body.tex
     include-in-header:
-      - file: preamble.tex
+      - file: assets/tex/preamble.tex
 callout-appearance: simple
 sansfont: "Bree Serif"
 mainfont: "PT Sans"
@@ -68,7 +68,7 @@ To create heuristics that help community engaged researchers understand and eval
 
 Iceberg or something: metrics are the very top, shortcuts or heuristics for lots of meaning. Can/should be combined with other tools such as TRES (https://servicelearning.indianapolis.iu.edu/teaching-research/tools-instruments/tres/index.html), as these other tools provide deeper insights and more robust information. Metrics should be used to **help** tell the story, they should not be the story in and of themselves.
 
-![](sierpinski_triangles.png){fig-alt="CEnTR*IMPACT"}
+![](assets/images/sierpinski_triangles.png){fig-alt="CEnTR*IMPACT"}
 
 $$ x = 8 $$
 
