@@ -53,6 +53,8 @@ code-overflow: wrap
 ---
 
 # CEnTR*IMPACT: Metrics for Community Engaged Research
+\setcounter{page}{1}
+\pagenumbering{arabic}
 
 ::: {.callout-note}
 
@@ -134,6 +136,8 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 
 # Contributors and Roles
+\setcounter{page}{1}
+\pagenumbering{roman}
 
 | ***Contributor*** | ***Role*** | |
 |:-------------|:-------|:---:|
