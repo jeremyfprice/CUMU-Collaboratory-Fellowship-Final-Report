@@ -30,9 +30,14 @@ author:
 #      - project-administration: supporting
 #      - writing: supporting
 license: "CC BY-SA"
+bibliography: references.bib
+number-sections: true
+crossref:
+  chapters: false
 format:
   pdf:
     documentclass: scrreprt
+    fontsize: 11pt
     papersize: letter
     geometry:
       - margin=1in
@@ -44,7 +49,7 @@ format:
 callout-appearance: simple
 sansfont: "Bree Serif"
 mainfont: "PT Sans"
-monofont: "Maple Mono"
+monofont: "PT Mono"
 mathfont: "Alegreya"
 highlight-style: a11y
 code-block-bg: true
@@ -56,23 +61,33 @@ code-overflow: wrap
 \setcounter{page}{1}
 \pagenumbering{arabic}
 
+## Stories of Community Engaged Research Practice
+
+Consider for a moment the following stories of community engaged scholars:
+
+>*Assistant Professor Willie Kopitar, a community-engaged scholar, is preparing their Faculty Annual Review packet at the end of the second year of a project and in their third year of being a professor. Dr. Kopitar requires a concise and easy-to-grasp set of metrics to provide the review committee, most of whom are not community engaged scholars. The review committee will be looking for outputs and impacts as the main criteria for their evaluation.*
+
+>*Meanwhile, Dr. Jody Božić, project manager for a community engaged research project at a university, needs to bring the research team together to identify successes and opportunities for growth. Dr. Božić and the research team need to understand how well they are engaging and building capacity with their community partners, as well as how well matched the team's goals are with the community's goals. Identifying categories in which they are succeeding and areas in which they can "course correct" will help them to strengthen their relationships with the community and facilitate more meaningful change.*
+
+>*Lastly, Dr. Nergüi Bello, Associate Professor and Director of a community engaged research center, is preparing a final project report for a funder. Dr. Bello needs to show that the funds have been well spent and that the project has resulted in lasting impacts. Dr. Bello wants to demonstrate in multiple ways the breadth, depth, and reach of the community engaged scholarship with quantitative and qualitative data as evidence.*
+
+These three community-engaged scholars are united by the need for compelling evidence that hooks busy evaluators, peers, and program officers, drawing them into the powerful stories of community relationships and dynamic change. Each scholar seeks to offer multiple entry points to fully engage others with these impactful narratives. One key entry point is through quantitative metrics---such as those provided by CEnTR*IMPACT---which offer a data-driven narrative that deepens understanding of community-engaged scholarship.
+
 ::: {.callout-note}
+## The Goal of CEnTR*IMPACT
 
-## The Goal of CENTR*IMPACT
-
-To create heuristics that help community engaged researchers understand and evaluate their work and to help them share their stories of their work with colleagues, funders, partners, etc.
+The goal is to create heuristics[^5] that help community engaged researchers understand and evaluate their work and to help them share their stories of their work with colleagues, funders, partners, and others in a quantitative manner and visually compelling way.
 :::
 
-## Existing Work in Reflecting, Reporting, and Evaluating Community Engaged Scholarship
+[^5]: Heuristics are *cognitive shortcuts* that simplify complex information, making it easier to understand and process. [@gatesValuingCriticalSystems2018; @moreno-boteHeuristicsOptimalSolutions2020].
 
+On a personal note, began this project after a faculty meeting in which I learned that my school was moving in the direction of favoring indicators---the *number* of things---over narratives that described the power and impact of the work for the faculty annual review process. The draft of the rubric presented did not include space for community engaged research efforts. That being the case, I decided to create a set of metrics to fill that gap. If the metrics were not going to be supplied for me, I preferred to provide the metrics on which I want to be evaluated.
 
 ## Situating Metrics
 
 Iceberg or something: metrics are the very top, shortcuts or heuristics for lots of meaning. Can/should be combined with other tools such as TRES (https://servicelearning.indianapolis.iu.edu/teaching-research/tools-instruments/tres/index.html), as these other tools provide deeper insights and more robust information. Metrics should be used to **help** tell the story, they should not be the story in and of themselves.
 
-![](assets/images/sierpinski_triangles.png){fig-alt="CEnTR*IMPACT"}
-
-$$ x = 8 $$
+![Continuum of Reporting and Evaluation Methodologies](assets/images/sierpinski_triangles.png){#fig-continuum}
 
 ::: {.callout-warning}
 ## Metrics as Single-Value Indicators for Consequential Decision Making
@@ -80,27 +95,136 @@ $$ x = 8 $$
 Don't do it.
 :::
 
-# Development Process
+## Existing Work in Reflecting, Reporting, and Evaluating Community Engaged Scholarship
 
-Here's what we did
+### TRES 1.0 and TRES 2.0
 
-# Current Design and Status of CEnTR*IMPACT
+Blah blah blah
 
-## Project Impacts
+### Example 2
+
+Blah blah blah
+
+### Example 3
+
+Blah blah blah
+
+# The Development Process
+
+As CEnTR\*IMPACT emerged from CER\*BEANS, the focus was on expanding and refining a set of metrics based on ongoing feedback from an expert panel. The process in developing CEnTR\*IMPACT included the following components:
+
+1. *Priority Mapping* to identify and sharpen the salient factors that contribute to community engaged research efforts;
+2. *Alignment Score Development* to create a way to demonstrate alignment between the research team and community partners;
+3. *Impact Score Development* to design scores that demonstrate the impacts of the research project, which included determining weightings of the descriptors; and
+4. *Cascade Effects Score Development* to develop a way to understand the social reach of the project.
+
+The expert panel that contributed to these efforts was comprised of faculty and staff from across the Indiana University system drawn from three groups. The first group is comprised of those faculty and staff designated as *Collaboratory Administrators*. These individuals have been selected to lead the effort of tracking community engaged projects with the [Collaboratory](https://cecollaboratory.com/) on their campus[^1]. The Collaboratory Administrators then *identified five community engaged scholars* on their respective campuses to comprise the second group. These scholars in the first and second groups were invited to participate in the process from beginning to end, and contributed their expertise to reduce and clarify the factors that contribute to the scores and in developing the weightings for each descriptor. The third group is comprised of *community engaged scholars who volunteered to contribute* to this effort following the kick-off meeting of the [Consortium for Community-Engaged Research to Impact Health Equity](https://consortia.indianapolis.iu.edu/health-equity/index.html) based at IU Indianapolis. The scholars in the third group contributed to the weightings determinations.
+
+Every effort was made to ensure the anonymity, confidentiality, and safety of the participants and received IRB approval on February 25, 2024 (IRB #22150). A great deal of gratitude is extended to these community engaged scholars for their time, their thoughtfulness, and their feedback.
+
+It should be noted that there is a fifth set of scores, *Direct Indicator Scores,* which provide an opportunity to include such measures as contact hours, individuals served, products created, etc. These direct indicators are often requested and required by funders or administrators in one form or another. It was therefore decided that *Direct Indicator Scores*---which are technically indicators rather than metrics, as described in the Introduction---would be included within the ensemble of CEnTR\*SEEK metrics.
+
+[^1]: The IU campuses with Collaboratory Administrators are Bloomington, East, Indianapolis, Kokomo, Northwest, and Southeast.
+
+## Priority Mapping
+
+We began with a Priority Mapping exercise, using a Q Sort methodology with community engaged researchers from groups 1 and 2 to ensure the metrics reflect the needs and experiences of community engaged scholars and institutions. This process allowed us to systematically identify and rank the most salient aspects of community engaged research, providing a robust foundation for our metric development. Seven scholars from group 1 and 11 scholars from group 2 participated.
+
+The Q sort methodology [@morrisonExploringFacultyPerspectives2017; @mukherjeeComparisonTechniquesEliciting2018; @oregondepartmentofenvironmentalqualityEnhancingCommunityEngagement2022] involves a sorting activity, where participants place statements in order of importance on a two-dimensional grid. See @fig-qsort for an example Q Sort. The Q Sort methodology involves a factor analysis to understand how the responses grouped together. Another product of the analysis is "Q Sort Value," which provides an indication of the relative importance of the statement based on the collective sorting process. Q Sort Values range from 3 (highest) to -3 (lowest). The web-based Q-TIP platform [@robertsonQTIPQMethodTesting] was used to collect the data and the desktop app KADE [@banasickKADEDesktopApplication2019] was used to analyze the data.
+
+![Example Completed Q Sort](assets/images/qsort.png){#fig-qsort}
+
+Through the Q Sort analysis, two factors (groups of ranked items) were identified (see @tbl-qsort). By examining the Q Sort Values of the statements, I determined that the ranked statements in each group represented the following ideas:
+
+1. *Alignment and Values*
+2. *Purposes and Processes*
+
+The first group, *Alignment and Values*, demonstrated that members of the expert panel ranked ideas such as shared decision making, prioritizing community needs, and the importance of relationship building and sustainable partnerships highly. Indicators such as contact hours or individuals served received low Q Sort Values, suggesting that these direct measures are not as important as the ways in which the scholars and community partners interact towards good outcomes.
+
+I labeled the second group as *Purposes and Processes* as the statements with the highest Q Sort Values involved purposeful approaches and an emphasis on co-constructing the infrastructures and practices necessary for good outcomes. Interestingly, statements reflecting service learning[^3] received low Q Sort Scores in a way that was not evident in the first group.
+
+It's also important to highlight that the statement "An indicator of success for a community-engaged research project is the degree to which the products created are prioritized to include what the participants want or need" received a Q Sort Value of 3 from both groups. Similarly, the statement "An indicator of success for a community-engaged research project is how well set up it is to be sustainable beyond the participation of the research team" received a Q Sort Value of 2 from both groups. These high rankings suggest that prioritizing the needs and wants of the community and ensuring the project's sustainability are both crucial elements of community-engaged research.
+
+This priority mapping process made clear that CEnTR\*SEEK would require metrics that provide information about the *alignment* between the researchers and the community partners. Priority Mapping also illuminated the necessity of including the concepts of *values,* *purposes,* and *processes* in evaluating and reporting on community engaged research projects. As such, an entirely new category of metrics, Alignment Scores, were added to the CEnTR\*SEEK ensemble. Additionally, an intentional reorientation toward the Community-Based Participatory Research model [e.g., @wallersteinWhatPredictsOutcomes2008; @wallersteinCommunityBasedParticipatoryResearch2010; @wallersteinEngageEquityLongTerm2020; @beloneCommunityBasedParticipatoryResearch2016a], which includes a focus on these concepts, for developing the CEnTR\*SEEK Project Impact Scores.
+
+[^3]: While service learning is not a component of community engaged research per se, many community engaged scholars adopt an integrated approach to their work, weaving together research, teaching, and service.
+
+## Alignment Score Development
+
+As noted above, the Priority Mapping step above led to the design and inclusion of a set of Alignment Scores. These Alignment Scores are designed to illuminate the **degree of alignment** as self-reported by the scholars and the community partners. Alignment is defined here as how much the research team and the partners agree on how different parts of the project are being carried out. The factors for which alignment is measured emerge from both the CBPR model [@wallersteinWhatPredictsOutcomes2008; @wallersteinCommunityBasedParticipatoryResearch2010; @wallersteinEngageEquityLongTerm2020] and the results from the Priority Mapping. The eight factors of the project that are measured are as follows:
+
+* **Goals and Purposes** of the project;
+* **Values and Ideals** that guide the project;
+* Setting the **Roles and Responsibilities** between the research team and the community partners;
+* **Managing the Resources** that move the project forward;
+* **Designing and Facilitating the Activities and Events** for the good of the community in the project;
+* **Empowering the Culture, Knowledge and Language of the Community** in the work of the project;
+* The **Types of Outputs** such as workshops and events, news stories, policy documents, and academic articles and presentations;
+* The **Outcomes** of the project in terms of short-term and long-term changes.
+
+For each factor, members of the research team (or the lone scholar) rates the degree of alignment on a 0 to 1 scale, with 1 representing complete alignment and 0 representing no alignment. When multiple scholars are involved, the interpolated median is calculated for each factor. An interpolated median provides a better measure---in this case---of the central tendency of the data [@southEffectiveUseLikert2022]. The interpolated median is the "true median," the precise midpoint of all scores.
+
+Community partners are also encouraged to complete the Alignment Score survey. Once this information is collected from community partners, the interpolated median is similarly calculated. With the interpolated median values from the two groups, geometric means are calculated yielding final Alignment Scores. The *geometric mean,* rather than the more familiar arithmetic mean, is used for the final score calculation because of the small sample size and the potential for significantly disparate values [@mcchesneyWhyYouShould2020; @mcnicholAverageYouRe2022]. The geometric mean is represented as:
+$$
+G = \left(\prod_{i=1}^{n} x_i\right)^{\frac{1}{n}}
+$$
+where $G$ is the geometric mean, $n$ is the total number of values, and $x_i$ represents the individual values. $\prod$ is the product notation, meaning the product (rather than the sum as with $\Sigma$) is calculated.
+
+@fig-alignment offers a sample visualization of the Alignment Scores. This visualization provides researchers and community partners with valuable insights into their level of alignment on the eight factors measured.
+
+![Example Alignment Score Visualization](assets/images/alignment_visual.png){#fig-alignment width=50%}
+
+## Impact Score Development
+
+Blah
+
+### Framework Connection and Factor Development
+
+Blah
+
+### Weightings Development
+
+Smith's Salience Score:
+
+$$
+S = \frac{\left(\frac{(L-R_j+1)}{L}\right)}{N}
+$$
+Where $L$ is the length of each list, $R_j$ is the rank of item $j$, and $N$ is the number of lists.
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3551534/#:~:text=Salience%20was%20derived%20using%20a,in%20the%20sample%20%5B38%5D. (Fiks et al., 2011)
+
+### Score Calculations
 
 $$
 S_{ci} = (\prod^n_{i=1}s_i)^{\frac{1}{n}}
 $$
 
-## Ripple Effects
+```{r}
+#| eval: false
+#| code-overflow: wrap
+# Calculate the Smith's Salience Score
+salience_frame <- CalculateSalience(
+  survey_frame,
+  Order = "rank",
+  Subj = "participant_id",
+  CODE = "descriptor",
+  GROUPING = "factor"
+)
+```
+
+## Cascade Effects Score Development
+
+Blah
 
 $$
 \eta_i = \lambda_i(N_i+(\phi C_i))
 $$
+Where $\eta_i$ is the Cascade Effect Score at stage $i$, $\lambda_i$ is the blah, $N_i$ is the blah, $C_i$ is the blah, and $\phi$ is the blah.
 
 $$
 \eta_O = \frac{\sum^n_{i=1}\eta_i}{n}
 $$
+
 
 # CEnTR*IMPACT in Use
 
@@ -110,36 +234,46 @@ Quarto enables you to weave together content and executable code into a finished
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{r}
-#| eval: false
-#| code-overflow: wrap
-node_frame <- network_frame |>
-  select(-from) %>%
-  distinct(to, .keep_all = TRUE) %>%
-  rename(node = to) %>%
-  arrange(node) %>%
-  mutate(dd = diffusion.degree(network_graph)) %>%
-  mutate(pr = page_rank(network_graph, directed = TRUE)$vector) %>%
-  mutate(node_mu = dd * pr)
-```
 
 # Continued Trajectories
 
-You can add options to executable code like this 
-
-```{r}
-#| echo: false
-2 * 2
-```
+You can add options to executable code like this
 
 The `echo: false` option disables the printing of code (only output is displayed).
 
+# References
+
+::: {#refs}
+:::
+
+# Tables
+<!--\setcounter{page}{1}-->
+<!--\pagenumbering{roman}-->
+
+| **Factor** | **Q Sort Value** | **Statement** |
+|:-----------|:----------------:|:--------------|
+| *Alignment and Values* | 3 | Identifying the degree to which participants and researchers share decision making authority for the construction of infrastructure products is important to evaluate a community engaged project. |
+| | 3 | An indicator of success for a community engaged research project is the degree to which the products created are prioritized to include what the participants want or need. |
+| | 2 | Recognizing time spent on building relationships, relevance, and trust is essential for understanding a community engaged project's success. |
+| | 2 | It is essential to know that a community engaged project reaches people who are marginalized for different reasons. |
+| | 2 | An indicator of success for a community engaged research project is how well set up it is to be sustainable beyond the participation of the research team. |
+| | -2 | An important indicator of a community engaged project's success is the number of contact hours (virtual or in-person). |
+| | -3 | The number of people participating in a community engaged project is an important indicator of success. |
+| *Purposes and Processes* | 3 | It is important to recognize the purposes (from promoting efficiency to honoring participants' voices) for creating infrastructure products to evaluate a community engaged project. |
+| | 3 | An indicator of success for a community engaged research project is the degree to which the products created are prioritized to include what the participants want or need. |
+| | 2 | Attention to the degree of variation in participant roles and standpoints is an important contributor to success in a community engaged project. |
+| | 2 | One way to evaluate a community engaged project is by the infrastructures (documents, processes, guidelines, etc.) that are generated along the way. |
+| | 2 | An indicator of success for a community engaged research project is how well set up it is to be sustainable beyond the participation of the research team. |
+| | -2 | How responsibility is distributed across the research team and the participants is an important way to evaluate a community engaged project. |
+| | -2 | The level of input the participants and partners have in determining the experience of students in course engaged learning can help evaluate a community engaged project. |
+| | -2 | The level of input the participants and partners have in determining the experience of students in course engaged learning can help evaluate a community engaged project. |
+: Q Sort results[^2] {#tbl-qsort}{tbl-colwidths="[25,15,60]"}
+
+[^2]: Only items that received a 3, 2, -2, or -1 were included as these represent "strong" rankings.
 
 # Contributors and Roles
-\setcounter{page}{1}
-\pagenumbering{roman}
 
-| ***Contributor*** | ***Role*** | |
+| ***Contributor*** | ***Roles*** | |
 |:-------------|:-------|:---:|
 | **Jeremy F Price, PhD**    | Conceptualization          | *Lead* |
 |                       | Methodology                     | *Lead* |
