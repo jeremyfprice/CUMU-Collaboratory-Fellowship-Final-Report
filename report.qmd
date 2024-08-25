@@ -280,6 +280,12 @@ S_S = \frac{\left(\frac{(L-R_j+1)}{L}\right)}{N}
 $$ {#eq-smiths}
 In @eq-smiths, $L$ is the length of each list, $R_j$ is the rank of item $j$, and $N$ is the number of lists. The salience scores in each dimension were ordered from highest to lowest and assigned to the appropriate weighting value ($w_a$). The weighting assignments can be found in @tbl-weightings.
 
+### Example Project Dynamics Visualization
+
+The Project Dynamics Visualization (@fig-dynamics) employs the Archimedean spiral [@HowMakeSpirals] to plot scores, resulting in a distinct organic appearance. This spiral design also offers a balanced visual distribution across the domains, prompting researchers to reflect on whether their investments of effort are appropriately allocated.
+
+![Example Project Dynamics Visualization](assets/images/dynamic_visual.png){#fig-dynamics width=50%}
+
 ## Cascade Effects Score Development
 
 Blah
@@ -293,6 +299,7 @@ $$
 \eta_O = \frac{\sum^n_{i=1}\eta_i}{n}
 $$
 
+![Cascade](assets/images/cascade_visual.png){#fig-cascade width=40%}
 
 # CEnTR*IMPACT in Use
 
