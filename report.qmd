@@ -22,13 +22,6 @@ author:
       - supervision: lead
       - visualization: lead
       - writing: lead
-#contributor:
-#  - name: Kristin Norris
-#    email: norriske@iu.edu
-#    role:
-#      - methodology: supporting
-#      - project-administration: supporting
-#      - writing: supporting
 license: "CC BY-SA"
 bibliography: references.bib
 number-sections: true
@@ -36,6 +29,7 @@ crossref:
   chapters: false
 format:
   pdf:
+    toc: true
     documentclass: scrreprt
     fontsize: 11pt
     papersize: letter
@@ -57,14 +51,9 @@ code-block-border-left: "#86CEEB"
 code-overflow: wrap
 ---
 
-# CEnTR*IMPACT: Metrics for Community Engaged Research
+# Introducing CEnTR\*IMPACT
 \setcounter{page}{1}
 \pagenumbering{arabic}
-
-## Stories of Community Engaged Research Practice
-
-Consider for a moment the following stories of community engaged scholars:
-
 >*Assistant Professor Willie Kopitar, a community-engaged scholar, is preparing their Faculty Annual Review packet at the end of the second year of a project and in their third year of being a professor. Dr. Kopitar requires a concise and easy-to-grasp set of metrics to provide the review committee, most of whom are not community engaged scholars. The review committee will be looking for outputs and impacts as the main criteria for their evaluation.*
 
 >*Meanwhile, Dr. Jody Božić, project manager for a community engaged research project at a university, needs to bring the research team together to identify successes and opportunities for growth. Dr. Božić and the research team need to understand how well they are engaging and building capacity with their community partners, as well as how well matched the team's goals are with the community's goals. Identifying categories in which they are succeeding and areas in which they can "course correct" will help them to strengthen their relationships with the community and facilitate more meaningful change.*
@@ -81,7 +70,7 @@ The goal is to create heuristics[^5] that help community engaged researchers und
 
 [^5]: Heuristics are *cognitive shortcuts* that simplify complex information, making it easier to understand and process. [@gatesValuingCriticalSystems2018; @moreno-boteHeuristicsOptimalSolutions2020].
 
-On a personal note, began this project after a faculty meeting in which I learned that my school was moving in the direction of favoring indicators---the *number* of things---over narratives that described the power and impact of the work for the faculty annual review process. The draft of the rubric presented did not include space for community engaged research efforts. That being the case, I decided to create a set of metrics to fill that gap. If the metrics were not going to be supplied for me, I preferred to provide the metrics on which I want to be evaluated.
+I began this project after a faculty meeting where I learned that our school was shifting towards valuing indicators---the *number* of things---over narratives that capture the power and impact of our work for the faculty annual review process. The draft rubric presented at the meeting did not include space for community-engaged research efforts. Given this, I decided to create a set of metrics to fill that gap. If the metrics weren’t going to be provided for me, I decided to create the metrics I wanted to be evaluated on.
 
 ## Situating Metrics
 
@@ -101,21 +90,21 @@ Don't do it.
 
 Blah blah blah
 
-### Example 2
+### Engage for Equity Scales
 
-Blah blah blah
+[@boursawScalesPracticesOutcomes2021]
 
 ### Example 3
 
 Blah blah blah
 
-# The Development Process
+# The CEnTR\*IMPACT Development Process
 
 As CEnTR\*IMPACT emerged from CER\*BEANS, the focus was on expanding and refining a set of metrics based on ongoing feedback from an expert panel. The process in developing CEnTR\*IMPACT included the following components:
 
 1. *Priority Mapping* to identify and sharpen the salient factors that contribute to community engaged research efforts;
 2. *Alignment Score Development* to create a way to demonstrate alignment between the research team and community partners;
-3. *Impact Score Development* to design scores that demonstrate the impacts of the research project, which included determining weightings of the descriptors; and
+3. *Project Dynamics Score Development* to design scores that demonstrate the workings and outcomes of the research project, which included determining weightings of the descriptors; and
 4. *Cascade Effects Score Development* to develop a way to understand the social reach of the project.
 
 The expert panel that contributed to these efforts was comprised of faculty and staff from across the Indiana University system drawn from three groups. The first group is comprised of those faculty and staff designated as *Collaboratory Administrators*. These individuals have been selected to lead the effort of tracking community engaged projects with the [Collaboratory](https://cecollaboratory.com/) on their campus[^1]. The Collaboratory Administrators then *identified five community engaged scholars* on their respective campuses to comprise the second group. These scholars in the first and second groups were invited to participate in the process from beginning to end, and contributed their expertise to reduce and clarify the factors that contribute to the scores and in developing the weightings for each descriptor. The third group is comprised of *community engaged scholars who volunteered to contribute* to this effort following the kick-off meeting of the [Consortium for Community-Engaged Research to Impact Health Equity](https://consortia.indianapolis.iu.edu/health-equity/index.html) based at IU Indianapolis. The scholars in the third group contributed to the weightings determinations.
@@ -145,7 +134,7 @@ I labeled the second group as *Purposes and Processes* as the statements with th
 
 It's also important to highlight that the statement "An indicator of success for a community-engaged research project is the degree to which the products created are prioritized to include what the participants want or need" received a Q Sort Value of 3 from both groups. Similarly, the statement "An indicator of success for a community-engaged research project is how well set up it is to be sustainable beyond the participation of the research team" received a Q Sort Value of 2 from both groups. These high rankings suggest that prioritizing the needs and wants of the community and ensuring the project's sustainability are both crucial elements of community-engaged research.
 
-This priority mapping process made clear that CEnTR\*SEEK would require metrics that provide information about the *alignment* between the researchers and the community partners. Priority Mapping also illuminated the necessity of including the concepts of *values,* *purposes,* and *processes* in evaluating and reporting on community engaged research projects. As such, an entirely new category of metrics, Alignment Scores, were added to the CEnTR\*SEEK ensemble. Additionally, an intentional reorientation toward the Community-Based Participatory Research model [e.g., @wallersteinWhatPredictsOutcomes2008; @wallersteinCommunityBasedParticipatoryResearch2010; @wallersteinEngageEquityLongTerm2020; @beloneCommunityBasedParticipatoryResearch2016a], which includes a focus on these concepts, for developing the CEnTR\*SEEK Project Impact Scores.
+This priority mapping process made clear that CEnTR\*SEEK would require metrics that provide information about the *alignment* between the researchers and the community partners. Priority Mapping also illuminated the necessity of including the concepts of *values,* *purposes,* and *processes* in evaluating and reporting on community engaged research projects. As such, an entirely new category of metrics, Alignment Scores, were added to the CEnTR\*SEEK ensemble. Additionally, an intentional reorientation toward the Community-Based Participatory Research model [e.g., @wallersteinWhatPredictsOutcomes2008; @wallersteinCommunityBasedParticipatoryResearch2010; @wallersteinEngageEquityLongTerm2020; @beloneCommunityBasedParticipatoryResearch2016a], which includes a focus on these concepts, for developing the CEnTR\*SEEK Project Dynamics Scores.
 
 [^3]: While service learning is not a component of community engaged research per se, many community engaged scholars adopt an integrated approach to their work, weaving together research, teaching, and service.
 
@@ -164,53 +153,128 @@ As noted above, the Priority Mapping step above led to the design and inclusion 
 
 For each factor, members of the research team (or the lone scholar) rates the degree of alignment on a 0 to 1 scale, with 1 representing complete alignment and 0 representing no alignment. When multiple scholars are involved, the interpolated median is calculated for each factor. An interpolated median provides a better measure---in this case---of the central tendency of the data [@southEffectiveUseLikert2022]. The interpolated median is the "true median," the precise midpoint of all scores.
 
-Community partners are also encouraged to complete the Alignment Score survey. Once this information is collected from community partners, the interpolated median is similarly calculated. With the interpolated median values from the two groups, geometric means are calculated yielding final Alignment Scores. The *geometric mean,* rather than the more familiar arithmetic mean, is used for the final score calculation because of the small sample size and the potential for significantly disparate values [@mcchesneyWhyYouShould2020; @mcnicholAverageYouRe2022]. The geometric mean is represented as:
+Community partners are also encouraged to complete the Alignment Score survey. Once this information is collected from community partners, the interpolated median is similarly calculated. With the interpolated median values from the two groups, geometric means are calculated yielding final Alignment Scores. The *geometric mean,* rather than the more familiar arithmetic mean, is used for the final score calculation because of the small sample size and the potential for significantly disparate values [@mcchesneyWhyYouShould2020; @mcnicholAverageYouRe2022]. Calculating for the alignment score ($s_a$), the geometric mean is represented as:
 $$
-G = \left(\prod_{i=1}^{n} x_i\right)^{\frac{1}{n}}
+s_a = \left(\prod_{i=1}^{n} M_i\right)^{\frac{1}{n}}
 $$
-where $G$ is the geometric mean, $n$ is the total number of values, and $x_i$ represents the individual values. $\prod$ is the product notation, meaning the product (rather than the sum as with $\Sigma$) is calculated.
+where $n$ is the total number of values, and $M_i$ represents the individual medians. $\prod$ is the product notation, meaning the product (rather than the sum as with $\Sigma$) is calculated.
 
-@fig-alignment offers a sample visualization of the Alignment Scores. This visualization provides researchers and community partners with valuable insights into their level of alignment on the eight factors measured.
+@fig-alignment offers a sample visualization of the Alignment Scores. The closer to the center (an alignment score approaching 1), the more aligned a factor is between the research team and the community partners. The larger the dot, the greater the difference between the researchers' score and the community partners' score. The companion @tbl-alignment provides the numeric values for the visualization, where $s_a$ are the alignment scores and $\Delta_M$ are the differences between the medians.
 
-![Example Alignment Score Visualization](assets/images/alignment_visual.png){#fig-alignment width=50%}
+:::: {layout="[0.65, 0.35]"}
 
-## Impact Score Development
+::: {#firstcol}
 
-Blah
+![Example Alignment Score Visualization](assets/images/alignment_visual.png){#fig-alignment width=65%}
 
-### Framework Connection and Factor Development
+:::
 
-Blah
+::: {#secondcol}
 
-### Weightings Development
+| Factor | $s_a$ | $\Delta_M$ |
+|:-------|------:|-----------:|
+| Outputs | 0.891 | -0.050 |
+| Outcomes | 0.824 | 0.281 |
+| Activities | 0.780 | 0.066 |
+| Roles | 0.757 | -0.318 |
+| Goals | 0.751 | 0.116 |
+| Values | 0.700 | 0.181 |
+| Empowerment | 0.694 | 0.438 |
+| Resources | 0.603 | 0.151 |
+: Alignment Score Results {#tbl-alignment}
 
-Smith's Salience Score:
+:::
 
-$$
-S = \frac{\left(\frac{(L-R_j+1)}{L}\right)}{N}
-$$
-Where $L$ is the length of each list, $R_j$ is the rank of item $j$, and $N$ is the number of lists.
+::::
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3551534/#:~:text=Salience%20was%20derived%20using%20a,in%20the%20sample%20%5B38%5D. (Fiks et al., 2011)
+The *Outputs* $s_a$, for example, is relatively high at `0.891`. In addition, there is a relatively low difference in medians between the researchers and the community partners (`-0.050`). Because the $\Delta_M$ is negative, the median of the community partners was slightly higher than the median of the researchers, meaning the community partners believed the alignment was greater than the researchers did. The *Empowerment* $s_a$, however, is lower (`0.694`) and the $\Delta_M$ is much greater (`0.438`). This indicates that the researchers and the community partners were much less aligned and the researchers thought there was much greater alignment than the community partners did. This is a fundamental mismatch in understanding what empowerment through community engaged research should look like.
+
+## Project Dynamics Score Development
+
+The Project Dynamics Score provides insight into *where the project started,* *how the project was carried out,* and *where the project ended up.* The structure of the Project Dynamics Score is adapted from the Community Based Participatory Research (CBPR) framework[][^6], illustrated in @fig-framework. As noted above, the CBPR framework [@wallersteinWhatPredictsOutcomes2008; @wallersteinCommunityBasedParticipatoryResearch2010; @wallersteinEngageEquityLongTerm2020] fulfills the requirements and preferences uncovered through the Priority Mapping process.
+
+[^6]: The suggestion to use CBPR was made by Mary Price, and I am grateful for her guidance on how to structure these scores.
+
+![Project Dynamics Score Framework](assets/images/eval_framework.png){#fig-framework width=75%}
+
+Following the CBPR framework, the Project Dynamics scores are organized into five *domains:* Contexts, Processes, Interventions and Research, Engaged Learning, and Outcomes. The Engaged Learning domain was specifically added to accommodate community-engaged scholars who integrate their students from one or more courses into their research. Each domain is further divided into *dimensions,* which are the topical categories that make up the domains. Lastly, *attributes* contribute to each dimension, offering specific possibilities for how each dimension can be described or enacted.
+
+As an example, the Contexts *domain* is constituted of the following *dimensions:* Challenge Origin, Diversity, Resources, and Trust. The Challenge Origin dimension is described by *attributes* such as "The Research Team identified the challenge or issue," "The Community identified the challenge or issue," and "There were ongoing negotiations between the Research Team and the Community."
 
 ### Score Calculations
 
-$$
-S_{ci} = (\prod^n_{i=1}s_i)^{\frac{1}{n}}
-$$
+A score is calculated for each dimension and domain, and then an overall Project Dynamics Score is calculated. All scores fall within the 0 to 1 range. Only the domain and overall scores are represented in the visualization.
 
-```{r}
-#| eval: false
-#| code-overflow: wrap
-# Calculate the Smith's Salience Score
-salience_frame <- CalculateSalience(
-  survey_frame,
-  Order = "rank",
-  Subj = "participant_id",
-  CODE = "descriptor",
-  GROUPING = "factor"
-)
+The dimension scores are calculated by selecting and rank ordering the available attributes. If an attribute applies to the project at hand, then it is included and ranked. If an attribute is not applicable, then it is neither ranked nor scored. The full list of attributes and their assigned weights ($w_a$) can be found in @tbl-weightings.
+
+The dimension score itself is calculated through a two dimensional weighting process. Each attribute is assigned a weight based on the importance assigned to it by the expert panel (see @sec-weightings) and each rank is also assigned a weight. The possible weight values are derived from the equation $y = \log_{10}(x)$. A logarithmic scale was chosen because it emphasizes relative changes at higher values as demonstrated in @fig-log. The following values $x$ values were selected so the cooresponding $y$ values represent the weightings:
+
+| $x$ | $y$ (weight) |
+|------:|-----:|
+| 10 | 1.00 |
+| 9 | 0.95 |
+| 8 | 0.90 |
+| 7 | 0.84 |
+| 6 | 0.78 |
+
+```{r echo=FALSE, warning=FALSE, error=FALSE}
+#| label: fig-log
+#| fig-cap: "Logarithmic Graph (Base 10)"
+
+library(ggplot2)
+
+# Create a data frame with x values from 0.01 to 10
+df <- data.frame(x = seq(from = 0.01, to = 10, by = 0.01))
+
+# Calculate y values using the logarithmic function
+df$y <- log(df$x, base = 10)
+
+# Scale y values to be between 0 and 1
+#df$y_scaled <- df$y / max(df$y)
+
+# Create the plot using ggplot2
+ggplot(df, aes(x = x, y = y)) +
+  geom_line() +
+  labs(x = "x",
+       y = "y") +
+  ylim(0, 1) +
+  scale_x_continuous(breaks = c(0, 2, 4, 6, 8, 10), limits = c(0,10)) +
+  theme_minimal()
 ```
+
+The two weights---the attribute weight and the ranking weight---are multipled together which results in an attribute value. In other words:
+$$
+v_a = w_a \times w_r
+$$
+where $v_a$ is the attribute value, $w_a$ is the *assigned* attribute weight, and $w_r$ is the ranking weight. For instance, if the attribute "The Research Team refined the challenge or issue" was ranked second in the Challenge Origin dimension, the calculation would be $0.84 \times 0.95$, resulting in an attribute value of $0.80$ when rounded to two decimal places.
+ 
+::: {.callout-note}
+## The Intentionality of a Logarithmic Scale
+The decision to use a logarithmic scale was made to emphasize that CEnTR\*IMPACT is intended as an evaluation and reporting tool, rather than a metric that could lead to severe consequences, such as a career-ending outcome, particularly if a review committee does not fully understand how CEnTR\*IMPACT metrics are constructed.
+:::
+
+In order to provide normalized dimension values to minimize the penalty for choosing only a subset of the attributes, an algorithmic weighted mean is calculated. An algorithmic mean is warranted here because the attribute values are additive and generally along the same "scale" (they all contribute to the dimension). The weights are calculated by
+$$
+w_c = \frac{v_a}{\sum_{j=1}^{n}v_j}
+$$
+where $w_c$ is the *calculated* attribute weight for the purposes of a weighted mean, ${v_a}$ is the value of the attribute ($w_a \times w_r$), and $\sum_{j=1}^{n}v_j$ is the sum of the calculated attribute values.
+
+The dimension score ($S_d) is then calculated through a standard algorithmic weighted mean:
+
+$$
+S_d=\frac{\sum_{a=1}^{n}(w_c \cdot v_a)}{\sum_{a=1}^{n}w_c}
+$$
+where $S_d$ is the dimension score, $\sum_{a=1}^{n}(w_a \cdot v_a)$ is the sum of the product of the attribute values and the calculated weight, and $\sum_{a=1}^{n}w_c$ is the sum of the calculated weights. This results in an $S_d$ that falls between 0 and 1 and is normalized to minimize penalties.
+
+Once the dimension scores ($S_d$) within a domain are calculated, the geometric mean of these dimension values are calculated resulting in the domain score ($S_D$). In this case, using the geometric mean is justified because of the small sample size and the fact that the attributes are not necessarily on the same "scale" with the presence of numerous latent variables [@mcchesneyWhyYouShould2020; @mcnicholAverageYouRe2022]. The overall Project Dynamics Score ($S_P$) is the geometric mean of all domain scores.
+
+### Assigned Attribute Weightings Development {#sec-weightings}
+
+The assigned weightings for each attribute ($w_a$) were determined by the members of the expert panel by consensus. Consensus was obtained by asking the panel to rank order the attributes in each dimension using an online Qualtrics form. The panel's responses were downloaded, cleaned, and saved as a CSV (comma separated values) file. Using the R statistical programming lanugage [@rcoreteamLanguageEnvironmentStatistical2022] and the AnthroTools package [@purzyckiAnthroToolsPackageCrossCultural2017a], Smith's Salience Score [@fiksUsingFreelistingUnderstand2011, @quinlanFreelistingMethod2018, @smithSalienceCountsandDoes1997] was calculated for each dimension. The equation for Smith's Salience Score ($S_S$) is
+$$
+S_S = \frac{\left(\frac{(L-R_j+1)}{L}\right)}{N}
+$$
+where $L$ is the length of each list, $R_j$ is the rank of item $j$, and $N$ is the number of lists. The salience scores in each dimension were ordered from highest to lowest and assigned to the appropriate weighting value ($w_a$). The weighting assignments can be found in @tbl-weightings.
 
 ## Cascade Effects Score Development
 
@@ -219,7 +283,7 @@ Blah
 $$
 \eta_i = \lambda_i(N_i+(\phi C_i))
 $$
-Where $\eta_i$ is the Cascade Effect Score at stage $i$, $\lambda_i$ is the blah, $N_i$ is the blah, $C_i$ is the blah, and $\phi$ is the blah.
+where $\eta_i$ is the Cascade Effect Score at stage $i$, $\lambda_i$ is the blah, $N_i$ is the blah, $C_i$ is the blah, and $\phi$ is the blah.
 
 $$
 \eta_O = \frac{\sum^n_{i=1}\eta_i}{n}
@@ -230,25 +294,17 @@ $$
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-
 # Continued Trajectories
 
 You can add options to executable code like this
 
 The `echo: false` option disables the printing of code (only output is displayed).
 
-# References
+# Appendix 1: Tables
+\setcounter{page}{1}
+\pagenumbering{roman}
 
-::: {#refs}
-:::
-
-# Tables
-<!--\setcounter{page}{1}-->
-<!--\pagenumbering{roman}-->
+## Q Sort Results
 
 | **Factor** | **Q Sort Value** | **Statement** |
 |:-----------|:----------------:|:--------------|
@@ -259,6 +315,7 @@ The `echo: false` option disables the printing of code (only output is displayed
 | | 2 | An indicator of success for a community engaged research project is how well set up it is to be sustainable beyond the participation of the research team. |
 | | -2 | An important indicator of a community engaged project's success is the number of contact hours (virtual or in-person). |
 | | -3 | The number of people participating in a community engaged project is an important indicator of success. |
+| | | |
 | *Purposes and Processes* | 3 | It is important to recognize the purposes (from promoting efficiency to honoring participants' voices) for creating infrastructure products to evaluate a community engaged project. |
 | | 3 | An indicator of success for a community engaged research project is the degree to which the products created are prioritized to include what the participants want or need. |
 | | 2 | Attention to the degree of variation in participant roles and standpoints is an important contributor to success in a community engaged project. |
@@ -271,7 +328,19 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 [^2]: Only items that received a 3, 2, -2, or -1 were included as these represent "strong" rankings.
 
-# Contributors and Roles
+## Descriptor Weightings
+
+| **Area** | **Factor** | **Descriptor** | **Salience** | **Weight** |
+|:----------------|:----------------|:--------------|------:|-------:|
+| ***Contexts*** | **Challenge Origin** | There were ongoing negotiations between the Research Team and the Community | 1.00 | 1.00 |
+| | | The Community identified the challenge or issue | 0.80 | 0.95 |
+| | | | | |
+| | **Diversity** | Blah | 1.00 | 1.00 |
+| | | | | |
+| ***Blah*** | **Blah** | Blah | 1.00 | 1.00 |
+: Descriptor Weightings {#tbl-weightings}{tbl-colwidths="[20,20,40,10,10]"}
+
+# Appendix 2: Contributors and Roles
 
 | ***Contributor*** | ***Roles*** | |
 |:-------------|:-------|:---:|
@@ -303,3 +372,8 @@ The `echo: false` option disables the printing of code (only output is displayed
 |                       | |
 | **Vivek Tiwari**      | Software                        | *Equal* |
 |                       | Visualization                   | *Supporting* |
+
+# References
+
+::: {#refs}
+:::
