@@ -28,6 +28,8 @@ number-sections: true
 crossref:
   chapters: false
 format:
+#  docx:
+#    toc: false
   pdf:
     toc: true
     documentclass: scrreprt
@@ -47,7 +49,7 @@ monofont: "PT Mono"
 mathfont: "Alegreya"
 highlight-style: a11y
 code-block-bg: true
-code-block-border-left: "#86CEEB"
+code-block-border-left: "#617073"
 code-overflow: wrap
 ---
 
@@ -72,41 +74,69 @@ The goal is to create heuristics[^5] that help community engaged researchers und
 
 I began this project after a faculty meeting where I learned that our school was shifting towards valuing indicators---the *number* of things---over narratives that capture the power and impact of our work for the faculty annual review process. The draft rubric presented at the meeting did not include space for community-engaged research efforts. Given this, I decided to create a set of metrics to fill that gap. If the metrics weren’t going to be provided for me, I decided to create the metrics I wanted to be evaluated on.
 
-## Situating Metrics
+Metrics frequently dominate discussions among community-engaged scholars, reflecting their growing importance in various academic contexts. Even when community-engaged research is valued intrinsically, promotion and tenure committees often seek quantifiable measures analogous to the Journal Impact Factor used in traditional research [@shephardValuingEvaluatingCommunityengaged2018; @wendlingEvaluatingCommunityEngagedResearch2023]. This emphasis on metrics extends beyond individual career advancement. As universities and other organizations increasingly adopt market-based paradigms, demonstrating success through quantifiable indicators has become a matter of institutional survival [@gruberAcademicSelloutHow2014; @palfreymanMarketsModelsMetrics2007]. The influence of these paradigms reaches funding bodies as well, where grantees are expected to justify their work by demonstrating returns on investment through metrics, often to satisfy boards of directors [@lewisLongitudinalMultisiteEvaluation2023]. Collectively, these factors underscore the critical need for developing robust, meaningful metrics in community-engaged research, a challenge that continues to occupy scholars in this field.
 
-Iceberg or something: metrics are the very top, shortcuts or heuristics for lots of meaning. Can/should be combined with other tools such as TRES (https://servicelearning.indianapolis.iu.edu/teaching-research/tools-instruments/tres/index.html), as these other tools provide deeper insights and more robust information. Metrics should be used to **help** tell the story, they should not be the story in and of themselves.
+In the face of pervasive metrics, community-engaged scholars should not retreat but rather proactively embrace and wrestle with these measures as integral components of our stories    By doing so, we can reclaim agency, shifting from a reactive stance to one of active direction in our field. As @hauserMetricsYouAre1998 aptly warns, "You are what you measure." This adage underscores the critical importance of reorienting metrics to align with what truly matters in community-engaged research. Instead of allowing external forces to dictate our value solely through quantitative measures, we must actively shape these metrics to reflect the unique qualities and impacts of our work. This approach not only preserves the integrity of community-engaged scholarship but also ensures that our stories are told accurately and comprehensively, capturing the nuanced and often qualitative nature of our contributions to both academia and society.
+
+## Situating and Exploring Metrics
+
+Before delving into the processes by which CEnTR\*IMPACT has been developed, and the types of insights this ensemble provides, it is important to understand the concept of "metrics" to begin with. By understanding the roots and place of a concept like "metrics"---and by tracing the construction of specific metrics, as in this report---we can be mindful in their use, interpretation, and consequences.
+
+It is largely understood that metrics are numbers that represent a measurement, an assertion that is partially correct. As a *heuristic,* metrics are a little more complex than that. My own institution, for example, which has written community engaged research into its strategic plan, identifies "metrics" for this goal such as "the number of community engaged research projects." For the next several years, the university is expecting to see an increase in this number.
+
+Yet "the number of community engaged research projects" is technically **not a metric**; more acurately, it is an *indicator.* An indicator is a count, a number of something, and therefore always quantitative in nature. There is a great deal of meaning and assumptions packed into indicators: an increase in the number of projects *means* more trusting relationships between the university and communities; increased grant funding for community engaged projects *means* the work of the university is seen as more valuable. With each number, each count, it is critical to excavate this value to uncover the meaning or meanings it represents.
 
 ![Continuum of Reporting and Evaluation Methodologies](assets/images/sierpinski_triangles.png){#fig-continuum}
+
+We find then that ways in which we tell our stories lie along a continuum (@fig-continuum). At one end of the continuum we find *Indicators,* which are always represented quantitatively, pack a great deal of condensed meaning that needs to be excavated, and, as stories, lack authenticity. Reading indicators, however, are a low cognitive lift and, despite the greatly condensed meaning, are easy to grasp. On the other end is *Participation* in community engaged research.[^12] Unlike indicators, participation is an authentic, complex, cognitively (and emotionally) demanding experience that is highly qualitative in its original sense of referring to the physicality of an object or experience.
+
+Moving from Participation back to Indicators, we first encounter *Narratives/Ethnographies.* These are the stories of community engaged research in the typical way we think of stories, qualitative (although occasionally including quantitative information) and authentic, told in a relative complexity that requires some degree of cognition. *Reflection Tools* are next, which are structured opportunities to describe and reflect on community engaged research. Reflection Tools occupy a "sweet spot," in that some degree of authenticity and complexity is retained, but the structured short bursts of fill-in texts require less cognitive demand than an ethnographic account which is laden with context and detail. TRES[^9] 2.0 [@kniffinRelationshipsPartnershipsCommunity2020] is an exemplar of a Reflection Tool.
+
+Between Reflection Tools and Indicators lie *Metrics.* The main distinguishing marker between Indicators and Metrics is that Metrics involve calculations beyond enumeration (counting). Metrics represent the aggregation and synthesis of multiple indicators and measures, demanding more cognition to fully understand than indicators but also more complex and authentic when interpreted appropriately.
+
+Metrics can range from the simple to the complex; Journal Impact Factor is simply the number of times articles in a journal were cited over a two year period by the number of articles that are potentially citeable.[^13] The metrics that comprise CEnTR\*IMPACT are much more complex, and are often determined through the integration of several metrics or by explicitly modeling the experience itself. Rather than viewing these metrics as opaque, however, I hope that readers and interpreters of CEnTR\*IMPACT will view them as an opportunity to engage in a complex dialogue with the numbers and visualizations to better understand the experience and the outcomes. For those who "just need a number," CEnTR\*IMPACT will provide that, along with a backbone for telling a fuller, more qualitative narrative.
 
 ::: {.callout-warning}
 ## Metrics as Single-Value Indicators for Consequential Decision Making
 
-Don't do it.
+**Don't do it.** A person's career, reputation, or a project's potential and worth should never hinge on a single number, nor even on an ensemble of metrics like CEnTR\*IMPACT. While CEnTR\*IMPACT can be included within the context of a broader narrative in reports, dossiers, proposals, or applications, it should never serve as the sole or decisive factor for critical decisions such as promotion, tenure, or project funding. Instead, CEnTR\*IMPACT can provide a valuable backbone or starting point for self-evaluation of projects and stimulate meaningful conversations about impact. Its role should be to complement and enrich qualitative assessments, not to replace them. **Using CEnTR\*IMPACT as a single-value indicator for consequential decision making violates their intention and integrity, and, honestly, far exceeds their scope and capability.**
 :::
 
-## Existing Work in Reflecting, Reporting, and Evaluating Community Engaged Scholarship
+[^12]: Including participation on this continuum was an intentional choice to reinforce that participating in community engaged research and not just writing things up for an audience is valuable in its own right and worthwhile as an end in itself.
+[^13]: It should be noted that Journal Impact Factor was originally intended to guide librarians' budgetary decisions as to which journals they should subscribe to, not as a way to determine the worth of a single scholar.
 
-### TRES 1.0 and TRES 2.0
+### Existing Work in Reflecting, Reporting, and Evaluating Community Engaged Scholarship
 
-Blah blah blah
+The development of this ensemble of metrics is situated within a broader context of scholarly efforts to measure various aspects of community-engaged research. While not exhaustive, this brief overview highlights three primary categories of measurement that have emerged in the literature:
 
-### Engage for Equity Scales
+* **Nature of Partnerships:** These measures assess the quality, depth, and equity of collaborations between academic institutions and community partners.
+* **Processes and Outcomes:** This category encompasses measures that evaluate both the methodologies and practices employed in community-engaged research and their immediate results.
+* **Impacts:** These measures attempt to quantify the broader, often long-term effects of community-engaged research on both academic and community spheres.
 
-[@boursawScalesPracticesOutcomes2021]
+Measures typically favor one particular category, rather than providing a more holistic overview as can be accomplished through an ensemble of metrics. It is important to note that this summary is neither comprehensive nor a formal systematic review. For more extensive analyses, readers are directed to the work of @lugerMeasuringCommunityEngagedResearch2020 and @bowenSystematicReviewQuantitative2017, who have conducted thorough literature reviews on this topic.
 
-### Example 3
+**The Nature of Partnerships.** Measures frameworks addressing the nature of partnerships provides insightful and useful indicators of the nature and quality of the relationships between research teams and community partners. @claytonDifferentiatingAssessingRelationships2010, through TRES 1.0, provide a validated measure of positioning the relationship on the Exploitative-Transactional-Transformational spectrum. Exploitative relationships refer to situations in which one group "takes" from the other, with little to no benefit to the group being exploited. Transactional means that the relationship is one of *quid pro quo,* of trading back-and-forth to maintain a zero-sum status. Lastly, Transformational relationships refer to scenarios in which researchers *and* community partners benefit, change, and grow.
 
-Blah blah blah
+@aroraMeasuringCommunityBasedParticipatory2015 developed PAIR[^10] to provide measures over five dimensions (communication, collaboration, partnership values, benefits, and evaluation), and is aimed at providing an opportunity for both researchers and community members to evaluate the partnership through a series of sorting and interviewing activities. @keyContinuumCommunityEngagement2019 provide a framework for understanding partnerships, including equity indicators and contextual factors.  Lastly, @dostilioDemocraticallyEngagedCommunity2014 presents an evaluation orientation towards measuring the civic and democratic factors of partnerships in community engaged research.
+
+[^9]: Transformational Relationship Evaluation Scale.
+[^10]: Partnership Assessment In community-based Research.
+
+**Processes and Outcomes.** The examination of processes and outcomes both broadens the measurement in nuanced ways, looking at *how* community engaged research is accomplished, and *what* it produces. Building on TRES 1.0, @kniffinRelationshipsPartnershipsCommunity2020 introduce TRES 2.0 as a reflective tool to examine and consider the practices and outputs of community engaged research. @schulzInstrumentEvaluatingDimensions2003 provide an evaluation tool for self-assessing community engaged research processes, while @goodmanEVALUATINGCOMMUNITYENGAGEMENT2017 present a set of quantitative metrics across engagement principles which are correlated with particular outcomes of community engaged research. Lastly, @boursawScalesPracticesOutcomes2021 introduce scales specifically aligned with the CBPR framework [@wallersteinEngageEquityLongTerm2020], the framework used to structure much of CEnTR*SEEK.
+
+[^11]: Participatory Impact Pathways Analysis.
+
+**Impacts.** The measurement of impacts elucidate understandings of the differences community engaged research efforts make. The PIPA[^11] [@alvarezParticipatoryImpactPathways2010] presents a framework for planning and evaluating impacts through the development of an "Impact Logic Model." While not technically a *metric,* @chazdonFieldGuideRipple2017 provide an effective and compelling map of the impacts of community engaged research across people and time with their ripple mapping method. Lastly, @reedProgramEvaluationCommunityengaged2015 introduces a nuanced and critical approach to evaluating the impacts of community engaged research.
 
 # The CEnTR\*IMPACT Development Process
 
 As CEnTR\*IMPACT emerged from CER\*BEANS, the focus was on expanding and refining a set of metrics based on ongoing feedback from an expert panel. The process in developing CEnTR\*IMPACT included the following components:
 
 1. *Priority Mapping* to identify and sharpen the salient factors that contribute to community engaged research efforts;
-2. *Direct Indicator Scores* which include measures such as contact hours, individuals served, and number of products created.
-3. *Alignment Score Development* to create a way to demonstrate alignment between the research team and community partners;
-4. *Project Dynamics Score Development* to design scores that demonstrate the workings and outcomes of the research project, which included determining weightings of the descriptors; and
-5. *Cascade Effects Score Development* to develop a way to understand the social reach of the project.
+2. *Direct Indicator Scores* ($S_I$) which include measures such as contact hours, individuals served, and number of products created.
+3. *Alignment Score Development* ($S_A$) to create a way to demonstrate alignment between the research team and community partners;
+4. *Project Dynamics Score Development* ($S_D$) to design scores that demonstrate the workings and outcomes of the research project, which included determining weightings of the descriptors; and
+5. *Cascade Effects Score Development* ($S_C$) to develop a way to understand the social reach of the project.
 
 The expert panel that contributed to these efforts was comprised of faculty and staff from across the Indiana University system drawn from three groups. The first group is comprised of those faculty and staff designated as *Collaboratory Administrators*. These individuals have been selected to lead the effort of tracking community engaged projects with the [Collaboratory](https://cecollaboratory.com/) on their campus. The Collaboratory Administrators then *identified five community engaged scholars* on their respective campuses to comprise the second group. These scholars in the first and second groups were invited to participate in the process from beginning to end, and contributed their expertise to reduce and clarify the factors that contribute to the scores and in developing the weightings for each descriptor. The third group is comprised of *community engaged scholars who volunteered to contribute* to this effort following the kick-off meeting of the [Consortium for Community-Engaged Research to Impact Health Equity](https://consortia.indianapolis.iu.edu/health-equity/index.html) based at IU Indianapolis. The scholars in the third group contributed to the weightings determinations.
 
@@ -139,6 +169,8 @@ This priority mapping process made clear that CEnTR\*IMPACT would require metric
 
 *Direct Indicator Scores* provide an opportunity to include such measures as contact hours, individuals served, products created, etc. These direct indicators are often requested and required by funders or administrators in one form or another. It was therefore decided that Direct Indicator Scores---which are technically indicators rather than metrics, as described in the Introduction---would be included within the ensemble of CEnTR\*IMPACT metrics.
 
+### Example Direct Indicators Visualization
+
 ![Example Direct Indicator Score Visualization](assets/images/indicator_visual.png){#fig-indicator}
 
 The direct indicators are **raw numbers** representing quantities, as illustrated in @fig-indicator. The direct indicators measured as a part of CEnTR\*IMPACT are:
@@ -151,7 +183,7 @@ The direct indicators are **raw numbers** representing quantities, as illustrate
 * **Students Involved**, if engaged learning is a component of the project; and
 * **Successful Outcomes**, the number of agreed-to outcomes that have been met through the project.
 
-## Alignment Score Development
+## Alignment Score Development {#sec-alignmentscore}
 
 As noted above, the Priority Mapping step above led to the design and inclusion of a set of Alignment Scores. These Alignment Scores are designed to illuminate the **degree of alignment** as self-reported by the scholars and the community partners. Alignment is defined here as how much the research team and the partners agree on how different parts of the project are being carried out. The factors for which alignment is measured emerge from both the CBPR model [@wallersteinWhatPredictsOutcomes2008; @wallersteinCommunityBasedParticipatoryResearch2010; @wallersteinEngageEquityLongTerm2020] and the results from the Priority Mapping. The eight factors of the project that are measured are as follows:
 
@@ -173,9 +205,11 @@ $$ {#eq-alignment}
 
 In @eq-alignment, $n$ is the total number of values, and $M_i$ represents the individual medians. $\prod$ is the product notation, meaning the product (rather than the sum as with $\Sigma$) is calculated.
 
-![Example Alignment Score Visualization](assets/images/alignment_visual.png){#fig-alignment width="50%"}
+### Example Alignment Score Visualization
 
 @fig-alignment offers a sample visualization of the Alignment Scores. The closer to the center (an alignment score approaching 1), the more aligned a factor is between the research team and the community partners. The larger the dot, the greater the difference between the researchers' score and the community partners' score.
+
+![Example Alignment Score Visualization](assets/images/alignment_visual.png){#fig-alignment width="50%"}
 
 The companion @tbl-alignment provides the numeric values for the visualization, where $s_a$ are the alignment scores and $\Delta_M$ are the differences between the medians.
 
@@ -221,36 +255,11 @@ The dimension score itself is calculated through a two dimensional weighting pro
 | 7 | 0.84 |
 | 6 | 0.78 |
 
-```{r echo=FALSE, warning=FALSE, error=FALSE, eval=FALSE}
-#| label: fig-log
-#| fig-cap: "Logarithmic Graph (Base 10)"
-
-library(ggplot2)
-
-# Create a data frame with x values from 0.01 to 10
-df <- data.frame(x = seq(from = 0.01, to = 10, by = 0.01))
-
-# Calculate y values using the logarithmic function
-df$y <- log(df$x, base = 10)
-
-# Scale y values to be between 0 and 1
-#df$y_scaled <- df$y / max(df$y)
-
-# Create the plot using ggplot2
-ggplot(df, aes(x = x, y = y)) +
-  geom_line() +
-  labs(x = "x",
-       y = "y") +
-  ylim(0, 1) +
-  scale_x_continuous(breaks = c(0, 2, 4, 6, 8, 10), limits = c(0,10)) +
-  theme_minimal()
-```
-
-The two weights---the attribute weight and the ranking weight---are multipled together which results in an attribute value (@eq-attribute-score).
+The two weights---the attribute weight and the ranking weight---are multiplied together which results in an attribute value (@eq-attribute-score).
 $$
-v_a = w_a \times w_r
+v_a = w_a \cdot w_r
 $$ {#eq-attribute-score}
-In @eq-attribute-score, $v_a$ is the attribute value, $w_a$ is the *assigned* attribute weight, and $w_r$ is the ranking weight. For instance, if the attribute "The Research Team refined the challenge or issue" was ranked second in the Challenge Origin dimension, the calculation would be $0.84 \times 0.95$, resulting in an attribute value of $0.80$ when rounded to two decimal places.
+In @eq-attribute-score, $v_a$ is the attribute value, $w_a$ is the *assigned* attribute weight, and $w_r$ is the ranking weight. For instance, if the attribute "The Research Team refined the challenge or issue" was ranked second in the Challenge Origin dimension, the calculation would be $0.84 \cdot 0.95$, resulting in an attribute value of $0.80$ when rounded to two decimal places.
  
 ::: {.callout-note}
 ## The Intentionality of a Logarithmic Scale
@@ -261,7 +270,7 @@ In order to provide normalized dimension values to minimize the penalty for choo
 $$
 w_c = \frac{v_a}{\sum_{j=1}^{n}v_j}
 $$ {#eq-attribute-weights}
-In @eq-attribute-weights, $w_c$ is the *calculated* attribute weight for the purposes of a weighted mean, ${v_a}$ is the value of the attribute ($w_a \times w_r$), and $\sum_{j=1}^{n}v_j$ is the sum of the calculated attribute values.
+In @eq-attribute-weights, $w_c$ is the *calculated* attribute weight for the purposes of a weighted mean, ${v_a}$ is the value of the attribute ($w_a \cdot w_r$), and $\sum_{j=1}^{n}v_j$ is the sum of the calculated attribute values.
 
 The dimension score ($S_d) is then calculated through a standard algorithmic weighted mean in @eq-dimension.
 
@@ -288,30 +297,55 @@ The Project Dynamics Visualization (@fig-dynamics) employs the Archimedean spira
 
 ## Cascade Effects Score Development
 
-Blah
+The Cascade Effects Score ($S_C$) measures how community-engaged research impacts people across various networks. To calculate this score:
+
+1. We create a model of the relevant social network (illustrated in @fig-network).
+2. We then apply Social Network Analysis methods to quantify the relationships and structure within this model.
+
+![Schematic of a Social Network Model](assets/images/cascade-diagram.png){#fig-network}
+
+This approach differs significantly from *ripple effects mapping*, which is a qualitative visual method for tracking how impacts spread outward from the initial experience [@chazdonFieldGuideRipple2017; @muhlesteinAssessingCommunityEngagedLearning2019; @zimmermanAssessingImpactsRipple2019]. Instead, our method more closely resembles the work of @longBridgesBrokersBoundary2013, which examined participants' roles based on the structure of the network formed through the research.
+
+While the popular "six degrees of separation" theory[^7] suggests we're all closely connected, research shows that our personal influence typically extends to just "three degrees of impact" [@christakisConnectedSurprisingPower2009]. The Cascade Effects Score, a measure of this influence, examines the cascading effects across these three degrees:
+
+1. **First degree**: The "core participants" of the project, including faculty, staff, students, and direct community partners.
+2. **Second degree**: Groups of people with whom the core participants are likely to share their experiences meaningfully[^8].
+3. **Third degree**: Those whom the second-degree participants are likely to meaningfully influence by sharing what they've learned.
+
+[^7]: Even more popularly known as "[Six Degress of Kevin Bacon](https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon)."
+[^8]: For example, faculty and staff may present at a conference to an audience of 30 people. While all attendees may find the presentation interesting, it is *more likely* that the core participants' community-engaged research experience will have a **significant effect** on their colleagues, collaborators, and advisees.
+
+The social network is modeled with `igraph` library [@csardiIgraphNetworkAnalysis2024] with further analysis with the `Centiserve` library [@jaliliCentiserveFindGraph2017]. Both libraries are implemented in the R statistical programming language. Once the network is modeled, an individual *node score*  ($s^i_n$) is calculated for each node, or individual, in the network. This calculation can be found in @eq-cenode, and is repeated for each individual in the network. The node score is the product of the diffusion degree centrality value of the node ($C^{DD}_n$) and the LeaderRank centrality ($C^{LR}_n).
 
 $$
-\eta_i = \lambda_i(N_i+(\phi C_i))
-$$
-where $\eta_i$ is the Cascade Effect Score at stage $i$, $\lambda_i$ is the blah, $N_i$ is the blah, $C_i$ is the blah, and $\phi$ is the blah.
+s^i_n = \frac{C^{DD}_n \cdot C^{LR}_n}{100}
+$$ {#eq-cenode}
+
+The diffusion degree centrality [@kunduNewCentralityMeasure2011] is a measure of the individual's ability to share out information based on structural and positional factors of the network. LeaderRank centrality [@luLeadersSocialNetworks2011] is an adaptation of Google's PageRank [@brinAnatomyLargescaleHypertextual1998], which provides an indication as to the individual's "reputation," and thus ability to influence others, in the network. This product is divided by 100 to scale most values so they fall between 0 and 1.
+
+After the individual scores are calculated, a score is calculated for each *cascade* ($s^c_n$), presented in @eq-cascade. The cascade score is the sum of all individual scores within the degree of influence ($\sum^n_{i=1}s^i_n$) multiplied by a standard discount score ($\eta_n$) for each degree [@lengRipplingEffectSocial2018]. The degree discount scores are 0.110, 0.051, and 0.049, for degrees 1, 2, and 3, respectively.
 
 $$
-\eta_O = \frac{\sum^n_{i=1}\eta_i}{n}
+s^c_n = \sum^n_{i=1}s^i_n \cdot \eta_n
+$$ {#eq-cascade}
+
+The overall Cascade Effects Score ($S_C$) is represented in @eq-cascadeeffects. The overall score is calculated by summing the cascade scores for degrees one through three ($\sum^3_{n=1}s^c_n$) and then multiplying by the project's overall Alignment Score ($S_A$). The score is a sum of the layers rather than a mean as is the case in other scores because $S_C$ is the **total, overall impact** as information spreads out across the network. As such, summing the $s^c$ of the three layers is appropriate. The project Alignment Score, discussed in @sec-alignmentscore, provides a way of "discounting" the project's overall cascade effects. The higher the Alignment Score, meaning the more closely the research team and community partners are on the same page, the smaller the discount on the overall Cascade Effects Score.
+
 $$
+S_C = \sum^3_{n=1}s^c_n \cdot S_A
+$$ {#eq-cascadeeffects}
 
-![Cascade](assets/images/cascade_visual.png){#fig-cascade width=40%}
+### Example Cascade Effects Visualization
 
-# CEnTR*IMPACT in Use
+![Example Cascade Effects Visualization](assets/images/cascade_visual.png){#fig-cascade width=40%}
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-# Continued Trajectories
+# Conclusions and Continued Trajectories
 
 You can add options to executable code like this
 
 The `echo: false` option disables the printing of code (only output is displayed).
 
-# Appendix 1: Tables
+# Tables
 \setcounter{page}{1}
 \pagenumbering{roman}
 
@@ -343,15 +377,113 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 | **Area** | **Factor** | **Descriptor** | **Salience** | **Weight** |
 |:----------------|:----------------|:--------------|------:|-------:|
-| ***Contexts*** | **Challenge Origin** | There were ongoing negotiations between the Research Team and the Community | 1.00 | 1.00 |
-| | | The Community identified the challenge or issue | 0.80 | 0.95 |
-| | | | | |
-| | **Diversity** | Blah | 1.00 | 1.00 |
-| | | | | |
-| ***Blah*** | **Blah** | Blah | 1.00 | 1.00 |
+| ***Contexts***	 | **Challenge Origin**	 | There were ongoing negotiations between the Research Team and the Community	 | 1	 | 1 |
+| 	 |   | The Community identified the challenge or issue	 | 0.8	 | 0.95 |
+| 	 | 	 | The Community refined the challenge or issue	 | 0.6	 | 0.9 |
+| 	 | 	 | The Research Team refined the challenge or issue	 | 0.4	 | 0.84 |
+| 	 | 	 | The Research Team identified the challenge or issue	 | 0.2	 | 0.78 |
+| 	 | **Diversity**	 | There are overlaps in identity memberships between the Research Team and the Community	 | 1	 | 1 |
+| 	 | 	 | Underrepresented and/or marginalized identities are a part of the Research Team	 | 0.8	 | 0.95 |
+| 	 | 	 | The Research Team is diverse in multiple ways and represents a range of identities	 | 0.6	 | 0.9 |
+| 	 | 	 | The Community is diverse in multiple ways and represents a range of identities	 | 0.4	 | 0.84 |
+| 	 | 	 | Underrepresented and/or marginalized identities are a part of the Community	 | 0.2	 | 0.78 |
+| 	 | **Resources**	 | There were ongoing negotiations between the Research Team and the Community about the commitment of resources	 | 1	 | 1 |
+| 	 | 	 | The Research Team contributed resources	 | 0.8	 | 0.95 |
+| 	 | 	 | The Community contributed resources	 | 0.6	 | 0.9 |
+| 	 | 	 | All resources were provided by the Research Team	 | 0.4	 | 0.84 |
+| 	 | 	 | All resources were provided by the Community	 | 0.2	 | 0.78 |
+| 	 | **Trust**	 | Building on a history of trust and collaboration, the Community reached out to the Research Team	 | 1	 | 1 |
+| 	 | 	 | Building on a history of trust and collaboration, the Research Team reached out to the Community	 | 0.8	 | 0.95 |
+| 	 | 	 | There were ongoing trust-building efforts between the Research Institution and the Community	 | 0.6	 | 0.9 |
+| 	 | 	 | Despite a history of mistrust, the Community reached out to the Research Team	 | 0.4	 | 0.84 |
+| 	 | 	 | Despite a history of mistrust, the Research Team reached out to the Community	 | 0.2	 | 0.78 |
+| ***Partnership Processes***	 | **Beneficence**	 | There were ongoing discussions to ensure both the Community and the Research Team would benefit	 | 1	 | 1 |
+| 	 | 	 | Benefits built upon and strengthened the Community’s cultural capital and wealth and agency	 | 0.8	 | 0.95 |
+| 	 | 	 | Benefits aligned with the goals and purposes of the project	 | 0.6	 | 0.9 |
+| 	 | 	 | The Community Partners benefitted from the processes	 | 0.4	 | 0.84 |
+| 	 | 	 | The Research Team benefitted from the processes	 | 0.2	 | 0.78 |
+| 	 | **Decision Making**	 | Decision making was conducted through clear and understood processes	 | 1	 | 1 |
+| 	 | 	 | Decision making processes recognized and supported the community’s cultural capital and agency	 | 0.8	 | 0.95 |
+| 	 | 	 | Community Partners contributed to the decision making processes	 | 0.6	 | 0.9 |
+| 	 | 	 | The Research Team contributed to the decision making processes	 | 0.4	 | 0.84 |
+| 	 | 	 | Decisions were made to align the ongoing work with the goals and purposes of the project	 | 0.2	 | 0.78 |
+| 	 | **Reflection**	 | The Research Team and Community partners engaged in and benefitted from intentional collaborative reflection activities	 | 1	 | 1 |
+| 	 | 	 | Community partners engaged in and benefitted from intentional reflection activities	 | 0.8	 | 0.95 |
+| 	 | 	 | Strategies and new practices were developed through intentional reflection activities	 | 0.6	 | 0.9 |
+| 	 | 	 | Lessons learned for all participants were identified through intentional reflection activities	 | 0.4	 | 0.84 |
+| 	 | 	 | The Research Team engaged in and benefitted from intentional reflection activities	 | 0.2	 | 0.78 |
+| 	 | **Tool Construction**	 | The Community contributed to building the tools	 | 1	 | 1 |
+| 	 | 	 | Recognized and supported the Community’s cultural wealth and capital and agency	 | 0.8	 | 0.95 |
+| 	 | 	 | The Research Team contributed to building the tools	 | 0.6	 | 0.9 |
+| 	 | 	 | Made processes more clear and understandable	 | 0.4	 | 0.84 |
+| 	 | 	 | Promoted Efficiency	 | 0.2	 | 0.78 |
+| ***Interventions and Research***	 | **Design and Facilitation**	 | The Research Team contributed to the design and facilitation of interventions and research	 | 1	 | 1 |
+| 	 | 	 | The Community contributed to the design and facilitation of interventions and research	 | 0.8	 | 0.95 |
+| 	 | 	 | The design and facilitation of interventions and research recognized and supported the Community’s cultural wealth and capital and agency	 | 0.6	 | 0.9 |
+| 	 | 	 | The design and facilitation of interventions and research provided opportunities to generate new understandings for the discipline(s) and to benefit the Community	 | 0.4	 | 0.84 |
+| 	 | 	 | The design and facilitation of interventions and research aligned with the goals and purposes of the project	 | 0.2	 | 0.78 |
+| 	 | **Duration**	 | Multiple Years	 | 1	 | 1 |
+| 	 | 	 | A Year or Less	 | 0.8	 | 0.95 |
+| 	 | 	 | A Semester or Less	 | 0.6	 | 0.9 |
+| 	 | 	 | A Month or Less	 | 0.4	 | 0.84 |
+| 	 | 	 | A Week or Less	 | 0.2	 | 0.78 |
+| 	 | **Frequency**	 | At least Monthly	 | 1	 | 1 |
+| 	 | 	 | At least Weekly	 | 0.8	 | 0.95 |
+| 	 | 	 | More than once	 | 0.6	 | 0.9 |
+| 	 | 	 | Daily or more	 | 0.4	 | 0.84 |
+| 	 | 	 | Once	 | 0.2	 | 0.78 |
+| 	 | **Research Questions**	 | The Community contributed to the research question or questions to be explored	 | 1	 | 1 |
+| 	 | 	 | The Research Team contributed to the research question or questions to be explored	 | 0.8	 | 0.95 |
+| 	 | 	 | The research question or questions recognized and supported the Community’s cultural wealth and capital and agency	 | 0.6	 | 0.9 |
+| 	 | 	 | The research question or questions provided opportunities to generate new understandings for the discipline(s) of the Research Team and to benefit the Community	 | 0.4	 | 0.84 |
+| 	 | 	 | The research question or questions were designed to align with the goals and purposes of the project	 | 0.2	 | 0.78 |
+| 	 | **Voice**	 | Materials and Events utilized Community-Centered Language	 | 1	 | 1 |
+| 	 | 	 | Materials and Events were fit specifically for local settings	 | 0.8	 | 0.95 |
+| 	 | 	 | Materials and Events were aligned with the goals and purposes of the project	 | 0.6	 | 0.9 |
+| 	 | 	 | Materials and Events were culture-centered activities	 | 0.4	 | 0.84 |
+| 	 | 	 | Materials and Events utilized Academic Language	 | 0.2	 | 0.78 |
+| ***Engaged Learning***	 | **Civic Learning**	 | Opportunities are offered for meaning-making and making connections between civic learning and real-world contexts	 | 1	 | 1 |
+| 	 | 	 | Course and community activities are facilitated to support civic learning	 | 0.8	 | 0.95 |
+| 	 | 	 | Civic learning expectations and outcomes are included in the course syllabus	 | 0.6	 | 0.9 |
+| 	 | 	 | There is an alignment across the syllabus, the activities, and the assessments to ensure civic learning is assessed throughout the course	 | 0.4	 | 0.84 |
+| 	 | 	 | Opportunities are offered for meaning-making and making connections between civic learning and academic work in the course	 | 0.2	 | 0.78 |
+| 	 | **Integration**	 | The Community is included in the decision making around the inclusion of engaged learning in the broader research project	 | 1	 | 1 |
+| 	 | 	 | Students’ engagement activities with the Community support research and intervention activities by building capacities and capabilities and/or generating useful understandings and/or practices	 | 0.75	 | 0.95 |
+| 	 | 	 | Course artifacts and outputs support research and intervention activities by building capacities and capabilities and/or generating useful understandings and/or practices	 | 0.5	 | 0.9 |
+| 	 | 	 | Relationships and dynamics between the Instructor, the Community, and the Students are similar to the relationships and dynamics of the broader research project	 | 0.25	 | 0.84 |
+| 	 | **Learning Goals**	 | Critical reflection activities are used to deepen collaborative relationships with the Community	 | 1	 | 1 |
+| 	 | 	 | Critical reflection activities are offered that help students make connections across course content and beyond	 | 0.8	 | 0.95 |
+| 	 | 	 | There are ongoing critical reflection activities with scaffolding that allow deepened reflections on engaged experiences	 | 0.6	 | 0.9 |
+| 	 | 	 | Expectations for critical reflection are built into the course requirements and are stated in the syllabus	 | 0.4	 | 0.84 |
+| 	 | 	 | Critical reflection activities are used to enhance course content	 | 0.2	 | 0.78 |
+| 	 | **Reciprocity**	 | There is ongoing collaboration between the Community, the Instructor, and Students in all phases of the project or engaged experience	 | 1	 | 1 |
+| 	 | 	 | Students are aware of their accountability to contributing to the benefit of the Community	 | 0.8	 | 0.95 |
+| 	 | 	 | Activities are co-constructed by the Instructor, Community, and Students that benefit the Community and enrich Student learning	 | 0.6	 | 0.9 |
+| 	 | 	 | Expectations around Community benefit and Student learning are included in the course syllabus	 | 0.4	 | 0.84 |
+| 	 | 	 | The Instructor facilitates an activity or activities that benefit the Community and enrich Student learning	 | 0.2	 | 0.78 |
+| ***Outcomes***	 | **Capacities and Capabilities Strengthened**	 | Participant and/or Community well-being	 | 1	 | 1 |
+| 	 | 	 | Participant and/or Community agency	 | 0.8	 | 0.95 |
+| 	 | 	 | Mutual trust and respect between the Community and the Research Team and/or the Research Institution	 | 0.6	 | 0.9 |
+| 	 | 	 | The fabric and cohesion of the Community	 | 0.4	 | 0.84 |
+| 	 | 	 | The distribution of opportunity and/or attainment	 | 0.2	 | 0.78 |
+| 	 | **Goals Met**	 | Mostly for the Community, some for the Research Team	 | 1	 | 1 |
+| 	 | 	 | Entirely for the Community	 | 0.8	 | 0.95 |
+| 	 | 	 | Equally for the Research Team and the Community	 | 0.6	 | 0.9 |
+| 	 | 	 | Mostly for the Research Team, some for the Community	 | 0.4	 | 0.84 |
+| 	 | 	 | Entirely for the Research Team	 | 0.2	 | 0.78 |
+| 	 | **Outputs Delivered**	 | Community-Based Outputs that Reach Broader Community Members and Institutions	 | 1	 | 1 |
+| 	 | 	 | Community-Based Outputs that Benefit Direct Community Partners	 | 0.8	 | 0.95 |
+| 	 | 	 | Academic and/or Community-Based Outputs in a Range of Venues	 | 0.6	 | 0.9 |
+| 	 | 	 | Academic Outputs that Advance the Field	 | 0.4	 | 0.84 |
+| 	 | 	 | Academic Outputs that Benefit the Research Team	 | 0.2	 | 0.78 |
+| 	 | **Sustainability**	 | Concrete strategies for further engagement	 | 1	 | 1 |
+| 	 | 	 | Available resources	 | 0.8	 | 0.95 |
+| 	 | 	 | Trust and respect in partnership	 | 0.6	 | 0.9 |
+| 	 | 	 | Ongoing shared vision and common goals	 | 0.4	 | 0.84 |
+| 	 | 	 | Infrastructures for further engagement	 | 0.2	 | 0.78 |
 : Descriptor Weightings {#tbl-weightings}{tbl-colwidths="[20,20,40,10,10]"}
 
-# Appendix 2: Contributors and Roles
+# Contributors and Roles
 
 | ***Contributor*** | ***Roles*** | |
 |:-------------|:-------|:---:|
@@ -369,11 +501,9 @@ The `echo: false` option disables the printing of code (only output is displayed
 | **Kristin Norris, PhD**    | Methodology                | *Supporting* |
 |                       | Project Administration          | *Supporting* |
 |                       | Data Analysis                   | *Supporting* |
-|                       | Writing-Editing and Revising    | *Supporting* |
 |                       | |
 | **Mary Price, PhD**        | Methodology                | *Supporting* |
 |                       | Data Analysis                   | *Supporting* |
-|                       | Writing-Editing and Revising    | *Supporting* |
 |                       | |
 | **Neha Anil Cheda**        | Software                   | *Equal* |
 |                             | Visualization             | *Supporting* |
@@ -383,6 +513,10 @@ The `echo: false` option disables the printing of code (only output is displayed
 |                       | |
 | **Vivek Tiwari**      | Software                        | *Equal* |
 |                       | Visualization                   | *Supporting* |
+|                       | |
+| **Claude** (3.5 Sonnet, by Anthropic) | Writing-Editing and Revising | *Supporting* |
+|                       | |
+| **ChatGPT** (4, by OpenAI) | Writing-Editing and Revising | *Supporting* |
 
 # References
 
